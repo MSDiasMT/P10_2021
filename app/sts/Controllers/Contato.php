@@ -1,0 +1,12 @@
+<?php
+namespace Sts\Controllers;
+   if(!defined('URL')){
+        header('location: /');
+        exit();
+    }
+class Contato{
+    public function index(){
+        $carregarView = new \Core\ConfigView("sts/Views/contato/contato");
+        $carregarView -> renderizar();
+    }
+}

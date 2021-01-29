@@ -1,0 +1,17 @@
+{
+    "name": "Moises",
+    "description": "Projeto PHP OO",
+    "authors": [
+        {
+            "name": "Moises S. Dias",
+            "email": "moisessdias@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "Sts\\": "app/sts"
+        }
+    },
+    "require":{}
+}
