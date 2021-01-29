@@ -6,7 +6,7 @@ namespace Sts\Models;
     }
 class StsHome {
     public function index(){
-        echo "Listar Dados <br>";
+        //echo "Listar Dados <br>";
         //$conexao = new \Sts\Models\helper\StsConn();
         //$conexao->getConn();
         //$list = new \Sts\Models\helper\StsRead();
